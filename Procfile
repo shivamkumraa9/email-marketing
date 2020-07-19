@@ -1,1 +1,1 @@
-web: gunicorn Project.asgi:application
+web: gunicorn Project.asgi

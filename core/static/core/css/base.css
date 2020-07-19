@@ -1,0 +1,73 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+
+a {
+  color: #3498db;
+}
+
+a:hover {
+  color: #5faee3;
+  text-decoration: none;
+}
+
+
+#header {
+  /*height: 70px;*/
+  transition: all 0.5s;
+  z-index: 997;
+  transition: all 0.5s;
+  background: #fff!important;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 28px;
+  margin: 0;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #384046;
+}
+
+.logo, .logo:hover {
+  color: #384046;
+  text-decoration: none;
+}
+
+
+
+.nav-menu {
+  display: block;
+  position: relative;
+  color: #4f5a62;
+  padding: 12px 15px;
+  transition: 0.3s;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-menu:hover, .nav-menu li:hover{
+  color: #3498db;
+  text-decoration: none;
+}
+
+.active{
+  color: #3498db;
+  text-decoration: none;
+}
+
+
+#footer {
+  color: #444444;
+  font-size: 14px;
+  background: #f7fbfe;
+}
+
+
+@media (min-width:600px){
+  .card,.card1{width: 28rem;}
+  .card2{width: 38rem;}
+}

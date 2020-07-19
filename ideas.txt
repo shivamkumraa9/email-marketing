@@ -1,0 +1,17 @@
+Core Ideas
+
+send-email :
+	- Show form (Subject,From,Body)
+	- Show a default html template
+	- show a button to upload own html template
+	- show a button to get another html template
+	- show radio buttons for all contact list of the user 
+	- on send button populate the html template with name and email and send to all contacts
+	- In Front end show the actual result of the html templateq
+
+
+
+
+<div style="color:blue;">
+Important msg for {{ name }} : {{ email }}
+</div>
